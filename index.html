@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <!--! header section start -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/images.jpeg" alt="logo">
+        </a>
+        <nav class="navbar">
+<a href="#home" id="nav-home">Ana Sayfa</a>
+<a href="#about" id="nav-about">Hakkımızda</a>
+<a href="#menu" id="nav-menu">Menü</a>
+<a href="#products" id="nav-extra">Extra</a>
+<a href="#review" id="nav-review">Yorumlar</a>
+<a href="#contact" id="nav-contact">İletişim</a>
+
+        </nav>
+
+       <div class="buttons">
+
+    <select id="language-select" class="language-select">
+        <option value="tr">🇹🇷 TR</option>
+        <option value="en">🇬🇧 EN</option>
+        <option value="ar">🇸🇦 AR</option>
+    </select>
+
+    <button id="search-btn">
+        <i class="fas fa-search"></i>
+    </button>
+
+    <button id="cart-btn">
+        <i class="fas fa-shopping-cart"></i>
+    </button>
+
+</div>
+        <div class="search-form active">
+            <input type="text" class="search-input" id="search-box" placeholder="search here"/>
+            <i class="fas fa-search"></i>
+        </div>
+        
+<div class="cart-items-container">
+   <a href="order.html" class="btn">SİPARİŞİ TAMAMLA</a>
+</div>
+
+         
+    </header>
+    <!--! header section end -->
+    <!--! home section star -->
+    <section class="home" id="home">
+        <div class="content">
+        <h3>ÇARŞIBAŞI'NIN KRALI </h3>
+          <h3>HELAL DONER حلال </h3>
+        <P>Adres: Halkbank arkası, Merkez, Avni Akkan Cd. no:34, 61300 Çarşıbaşı/Trabzon, Türkiye</P><P>Telefon: +90 462 821 50 50</P>
+       <a href="#menu" class="btn">SİPARİŞE BAŞLA</a>
+    </div>
+    </section>
+    <!--! home section end -->
+    <!--! menu section start -->
+    <section class="menu" id="menu">
+        <h1 class="heading">URUNLERIMIZ &<span>ICECEKLERIMIZ </span></h1>
+        <div class="box-container">
+            <div class="box">
+    <div class="box-head">
+        <img src="images/Ekran görüntüsü 2025-06-12 220306.png" alt="menu" />
+        <h3>ZURNA DÜRÜM</h3>
+        <div class="price">190 TL <span>220 TL</span></div>
+    </div>
+    <div class="box-buttom">
+        <a href="#" class="btn add-cart" data-name="ZURNA DÜRÜM" data-price="190 TL">
+            SEPETE EKLE
+        </a>
+    </div>
+</div>
+
+<div class="box">
+    <div class="box-head">
+        <img src="images/SOBA (5).png" alt="menu" />
+        <h3>HALKA MENÜ</h3>
+        <div class="price">330 TL <span>350 TL</span></div>
+    </div>
+    <div class="box-buttom">
+        <a href="#" class="btn add-cart" data-name="HALKA MENÜ" data-price="330 TL">
+            SEPETE EKLE
+        </a>
+    </div>
+</div>
+
+<div class="box">
+    <div class="box-head">
+        <img src="images/SOBA (1).png" alt="menu" />
+        <h3>SOBA DÜRÜM</h3>
+        <div class="price">180 TL <span>200 TL</span></div>
+    </div>
+    <div class="box-buttom">
+        <a href="#" class="btn add-cart" data-name="SOBA DÜRÜM" data-price="180 TL">
+            SEPETE EKLE
+        </a>
+    </div>
+</div>
+
+<div class="box">
+    <div class="box-head">
+        <img src="images/SOBA (2).png" alt="menu" />
+        <h3>AYRAN MENÜ</h3>
+        <div class="price">250 TL <span>280 TL</span></div>
+    </div>
+    <div class="box-buttom">
+        <a href="#" class="btn add-cart" data-name="AYRAN MENÜ" data-price="250 TL">
+            SEPETE EKLE
+        </a>
+    </div>
+</div>
+
+<div class="box">
+    <div class="box-head">
+        <img src="images/SOBA (3).png" alt="menu" />
+        <h3>KOLA MENÜ</h3>
+        <div class="price">290 TL <span>310 TL</span></div>
+    </div>
+    <div class="box-buttom">
+        <a href="#" class="btn add-cart" data-name="KOLA MENÜ" data-price="290 TL">
+            SEPETE EKLE
+        </a>
+    </div>
+</div>
+
+<div class="box">
+    <div class="box-head">
+        <img src="images/SOBA (4).png" alt="menu" />
+        <h3>İKİZ MENÜ</h3>
+        <div class="price">420 TL <span>450 TL</span></div>
+    </div>
+    <div class="box-buttom">
+        <a href="#" class="btn add-cart" data-name="İKİZ MENÜ" data-price="420 TL">
+            SEPETE EKLE
+        </a>
+    </div>
+</div>
+
+<div class="box">
+    <div class="box-head">
+        <img src="images/CITIRMEN.png" alt="menu" />
+        <h3>ÇITIR MENÜ</h3>
+        <div class="price">180 TL <span>200 TL</span></div>
+    </div>
+    <div class="box-buttom">
+        <a href="#" class="btn add-cart" data-name="ÇITIR MENÜ" data-price="180 TL">
+            SEPETE EKLE
+        </a>
+    </div>
+</div>
+
+<div class="box">
+    <div class="box-head">
+        <img src="images/KASAR.png" alt="menu" />
+        <h3>KRAL KAŞARLI</h3>
+        <div class="price">220 TL <span>350 TL</span></div>
+    </div>
+    <div class="box-buttom">
+        <a href="#" class="btn add-cart" data-name="KRAL KAŞARLI" data-price="220 TL">
+            SEPETE EKLE
+        </a>
+    </div>
+</div>
+
+<div class="box">
+    <div class="box-head">
+        <img src="images/seker (2).png" alt="menu" />
+        <h3>ŞEKER MENÜ</h3>
+        <div class="price">380 TL <span>410 TL</span></div>
+    </div>
+    <div class="box-buttom">
+        <a href="#" class="btn add-cart" data-name="ŞEKER MENÜ" data-price="380 TL">
+            SEPETE EKLE
+        </a>
+    </div>
+</div>
+
+<div class="box">
+    <div class="box-head">
+        <img src="images/ChatGPT Image 17 Haz 2026 01_19_56.png" alt="menu" />
+        <h3>İÇECEKLER</h3>
+    </div>
+    <div class="box-buttom">
+        <a href="#" class="btn add-cart" data-name="İÇECEKLER" data-price="Fiyat Sorunuz">
+            SEPETE EKLE
+        </a>
+    </div>
+</div>
+</div>
+</section>
+    <!--! products section start-->
+ <!--! products section start-->
+<section class="products" id="products">
+    <h1 class="heading">our <span>extra</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="box-head">
+                <span class="title"></span>
+                <a href="#" class="name">NUGGET</a>
+            </div>
+
+            <div class="images">
+                <img src="images/Screenshot 2026-06-17 000949.png" alt="" />
+            </div>
+
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">80 TL</b>
+                    <span class="amount">110 gr / 300 Cal</span>
+                </div>
+
+                <div class="product-btn">
+                    <a href="#" class="btn add-cart"
+                       data-name="NUGGET"
+                       data-price="80 TL">
+                        SEPETE EKLE
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="title"></span>
+                <a href="#" class="name">PATATES CİPSİ</a>
+            </div>
+
+            <div class="images">
+                <img src="images/PATATES.png" alt="" />
+            </div>
+
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">80 TL</b>
+                    <span class="amount">220 gr / 600 Cal</span>
+                </div>
+
+                <div class="product-btn">
+                    <a href="#" class="btn add-cart"
+                       data-name="PATATES CİPSİ"
+                       data-price="80 TL">
+                        SEPETE EKLE
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="title"></span>
+                <a href="#" class="name">SOĞAN HALKASI</a>
+            </div>
+
+            <div class="images">
+                <img src="images/SOGANHALK.png" alt="" />
+            </div>
+
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">80 TL</b>
+                    <span class="amount">220 gr / 600 Cal</span>
+                </div>
+
+                <div class="product-btn">
+                    <a href="#" class="btn add-cart"
+                       data-name="SOĞAN HALKASI"
+                       data-price="80 TL">
+                        SEPETE EKLE
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--! products section end-->
+
+    <!--! about section start-->
+    <section class="about" id="about">
+        <h1 class="heading"> HAKKIMIZDA</h1>
+        <div class="row">
+            <div class="images">
+                <img src="images/ChatGPT Image 17 Haz 2026 00_59_39.png" alt="" >
+            </div>
+            <div class="content">
+                <h3>BU LEZZET NEREDEN GELIYOR ?</h3>
+                   <p>
+
+Kral Döner olarak, Hatay’ın eşsiz döner kültürünü ve sıcak aile ortamını müşterilerimizle buluşturuyoruz. Ustamızın Hatay’dan gelen yıllara dayanan tecrübesiyle hazırlanan dönerlerimiz, geleneksel lezzeti modern sunumla bir araya getiriyor. Hatay usulü özel soslarımız, özenle seçilen malzemelerimiz ve günlük hazırlanan ürünlerimizle her lokmada gerçek lezzeti sunmayı hedefliyoruz. Hatay usulü döner anlayışı, bölgenin köklü mutfak kültürüyle özdeşleşmiştir.
+
+İşletmemiz, çarşı merkezinde faaliyet gösteren ve kardeşler tarafından kurulan bir aile işletmesidir. Misafirlerimizi sadece müşteri olarak değil, ailemizin bir parçası olarak görüyoruz. Samimi hizmet anlayışımız, güler yüzlü ekibimiz ve kaliteli ürünlerimizle her ziyaretinizde kendinizi evinizde hissetmenizi amaçlıyoruz.
+
+Lezzet, kalite ve müşteri memnuniyetini ön planda tutarak çıktığımız bu yolda, Hatay’ın meşhur döner lezzetini sizlere en iyi şekilde sunmaya devam ediyoruz. Kral Döner’e hoş geldiniz; burada her dürüm özenle hazırlanır, her misafir değer görür.</p>
+
+                   
+                
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <!--! about section end--> 
+
+    <!--! review section start -->
+    <section class="review" id="review">
+        <h1 class="heading">MUSTERI YORUMLARI</h1>
+        <div class="box-container">
+            <div class="box">
+               <img src="images/Screenshot 2026-06-17 005802.png" alt="quote" class="user">
+                <p>İnanılmaz lezzetli. Ortam şahane. Gerçekten En Kral Lezzet👏 Bu arada bir tüyo vereyim, sostan rahatsız olan varsa salça kaynaklıdır. Sossuz da inanılmaz lezzetli çünkü mayonezleri sarımsaklı ve burada yapılıyor 😋 </p>
+               
+                <h3>ABDURRAHMAN KESIM</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+                <div class="box">
+                   <img src="images/Screenshot 2026-06-17 005802.png" alt="quote" class="user">
+                    <p>محل شاورما رهيب جدا ولذيذ انصح به
+                    </p>
+                    <h3>AbO_FeRaS</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            
+                    <div class="box">
+                       <img src="images/Screenshot 2026-06-17 005802.png" alt="quote" class="user">
+                        <p>Das Essen war sehr lecker und frisch zubereitet.
+Wir wurden freundlich empfangen und die Preise waren sehr fair.
+Ich kann es nur jedem weiterempfehlen!</p>
+                    
+                        <h3>Lisa Arambula</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--! review section end -->
+
+    <!--! contact section start -->
+    <section class="contact" id="contact">
+        <h1 class="heading">ILETISIM</span></h1>
+        <div class="row">
+            <iframe
+    class="map"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.4174888988077!2d39.3769051!3d41.08172400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40640dc2f533b741%3A0x1e80b2ecfb662635!2zw4dhcsWfxLFiYcWfxLEga3JhbCBkw7ZuZXI!5e0!3m2!1str!2sro!4v1781648013794!5m2!1str!2sro"
+    width="100%"
+    height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+<form>
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="name"/>
+                </div>
+
+                <div class="inputBox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="EMAIL"/>
+                </div>
+
+                <div class="inputBox">
+                    <i class="fas fa-phone"></i>
+                    <input type="number" placeholder="NUMBER"/>
+                </div>
+                <input type="submit" class="btn" value="contact now"/>
+            </form>
+        </div>
+
+    </section>
+
+    <!--! contact section end-->
+
+  
+    <!--! footer section start-->
+    <section class="footer">
+        <div class="search">
+            <input type="text"
+            class="search-input"
+            placeholder="Search">
+            <button class="btn btn-primary">search</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"> </a>
+            <a href="#" class="fab fa-twitter"> </a>
+            <a href="#" class="fab fa-instagram"> </a>
+            <a href="#" class="fab fa-linkedin"> </a>
+            <a href="#" class="fab fa-pinterest"> </a>
+
+
+        </div>
+        <div class="links">
+            <a href="#" class="active">anasayfa</a>
+           
+<a href="#about">Hakkımızda</a>
+<a href="#menu">Menü</a>
+<a href="#products">extra</a>
+<a href="#review">Yorumlar</a>
+<a href="#contact">İletişim</a>
+
+        </div>
+        <div class="credit">
+            created by <span>Gul Neva ARIFOGLU</span> | all rights reserved
+        </div>
+    </section>
+
+
+
+    <!--! footer section end -->
+    <!--! footer section end -->
+
+<script src="js/script.js"></script>
+
+
+  
+
+
+
+
+
+    
+  </body>
+</html>
