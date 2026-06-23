@@ -7,19 +7,25 @@ const cartBtn = document.querySelector("#cart-btn");
 const menuBtn = document.querySelector("#menu-btn");
 
 // Search
-searchBtn.addEventListener("click", function () {
-    searchForm.classList.toggle("active");
-});
+if (searchBtn) {
+    searchBtn.addEventListener("click", function () {
+        searchForm.classList.toggle("active");
+    });
+}
 
 // Cart
-cartBtn.addEventListener("click", function () {
-    cartItem.classList.toggle("active");
-});
+if (cartBtn) {
+    cartBtn.addEventListener("click", function () {
+        cartItem.classList.toggle("active");
+    });
+}
 
 // Menu
-menuBtn.addEventListener("click", function () {
-    navbar.classList.toggle("active");
-});
+if (menuBtn) {
+    menuBtn.addEventListener("click", function () {
+        navbar.classList.toggle("active");
+    });
+}
 
 // Add to cart
 const addCartButtons = document.querySelectorAll(".add-cart");
