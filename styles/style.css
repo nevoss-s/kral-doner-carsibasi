@@ -722,6 +722,36 @@ a{
 }
 
 /*! responsive end */
+/* MOBİL UYUM */
 
+@media (max-width: 768px) {
+
+    .header {
+        padding: 1rem 3%;
+        border-radius: 0 0 30px 30px;
+    }
+
+    .header .logo img {
+        height: 55px;
+    }
+
+    .home .content h3 {
+    font-size: clamp(3.5rem, 8vw, 6rem);
+}
+
+    .home .content p {
+        font-size: 1.6rem;
+    }
+
+    .search-form {
+        width: 90%;
+        right: 5%;
+    }
+
+    .home {
+        min-height: 100vh;
+        padding: 0 2rem;
+    }
+}
 
 
